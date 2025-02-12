@@ -1,0 +1,8 @@
+{
+  "dinoMappings": [
+    {
+      "fromClass": "/maewings/MilkGlider_Character_BP_early.MilkGlider_Character_BP_early_C",
+      "toClass": "/Game/PrimalEarth/Dinos/Meguana/MEGUANA BP HERE"
+    }
+  ]
+}
