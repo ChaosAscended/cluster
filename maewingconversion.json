@@ -1,7 +1,7 @@
   "dinoMappings": [
     {
-      "fromClass": "/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP_C",
-      "toClass": "/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP_C"
+      "fromClass": "/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP",
+      "toClass": "/Game/PrimalEarth/Dinos/Rex/BionicRex_Character_BP.BionicRex_Character_BP"
     } 
     {
       "fromClass": "/AACeratosaurus/Dinos/CeratosaurusAA_Character_BP.CeratosaurusAA_Character_BP",
