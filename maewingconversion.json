@@ -1,8 +1,8 @@
 {
   "dinoMappings": [
     {
-      "fromClass": "/maewings/MilkGlider_Character_BP_early.MilkGlider_Character_BP_early_C",
-      "toClass": "/Game/PrimalEarth/Dinos/Meguana/MEGUANA BP HERE"
-    }
+      "fromClass": "/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP_C",
+      "toClass": "/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP_C"
+    } 
   ]
 }
