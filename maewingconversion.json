@@ -1,6 +1,6 @@
   "dinoMappings": [
     {
-      "fromClass": " /Game/PrimalEarth/Dinos/Otter/Otter_Character_BP.Otter_Character_BP_C",
+      "fromClass": "/Game/PrimalEarth/Dinos/Otter/Otter_Character_BP.Otter_Character_BP_C",
       "toClass": "/Game/PrimalEarth/Dinos/Monkey/Monkey_Character_BP.Monkey_Character_BP_C"
     } 
     {
