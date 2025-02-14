@@ -2,7 +2,7 @@
   "dinoMappings": [
     {
       "fromClass": "/maewings/MilkGlider_Character_BP_early.MilkGlider_Character_BP_early2",
-      "toClass": "/Game/PrimalEarth/Dinos/Monkey/Monkey_Character_BP.Monkey_Character_BP_C"
+      "toClass": "/Game/ASA/Dinos/Maelizard/Maelizard_Character_BP.Maelizard_Character_BP_C"
     },
     {
       "fromClass": "/AACeratosaurus/Dinos/CeratosaurusAA_Character_BP.CeratosaurusAA_Character_BP",
