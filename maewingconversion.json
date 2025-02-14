@@ -1,10 +1,6 @@
 {
   "dinoMappings": [
     {
-      "fromClass": "/Game/ASA/Dinos/Ceratosaurus/Dinos/Ceratosaurus_Character_BP_ASA.Ceratosaurus_Character_BP_ASA",
-      "toClass": "/Game/ASA/Dinos/Gigantoraptor/Gigantoraptor_Character_BP.Gigantoraptor_Character_BP"
-    },
-    {
       "fromClass": "/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP_C",
       "toClass": "/Game/PrimalEarth/Dinos/Monkey/Monkey_Character_BP.Monkey_Character_BP_C"
     },
