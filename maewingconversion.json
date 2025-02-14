@@ -1,7 +1,7 @@
 {
   "dinoMappings": [
     {
-      "fromClass": "/maewings/MilkGlider_Character_BP_early.MilkGlider_Character_BP_early2",
+      "fromClass": "/maewings/MilkGlider_Character_BP_early.MilkGlider_Character_BP_early",
       "toClass": "/Game/ASA/Dinos/Maelizard/Maelizard_Character_BP.Maelizard_Character_BP_C"
     },
     {
