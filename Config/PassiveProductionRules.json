@@ -1761,24 +1761,6 @@
             "chanceToProduce": 1,
             "produces": [
                 {
-                    "intervalSeconds": 1800,
-                    "itemSelectMode": 0,
-                    "items": [
-                        {
-                            "bpPath": "/Game/LostColony/CoreBlueprints/Items/PrimalItemResource_LostColony_RedElementFromShards.PrimalItemResource_LostColony_RedElementFromShards",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        }
-                    ]
-                },
-                {
                     "intervalSeconds": 900,
                     "itemSelectMode": 0,
                     "items": [
@@ -1800,8 +1782,15 @@
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 2,
                             "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
+                            "alternateItemsChance": 0.1,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/LostColony/CoreBlueprints/Items/PrimalItemResource_LostColony_RedElementFromShards.PrimalItemResource_LostColony_RedElementFromShards",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
