@@ -456,7 +456,7 @@
                     ]
                 },
                 {
-                    "intervalSeconds": 3600,
+                    "intervalSeconds": 7200,
                     "itemSelectMode": 0,
                     "items": [
                         {
@@ -917,7 +917,7 @@
             ]
         },
         {
-            "dinoType": "Blueprint'/Game/LostColony/Dinos/BossBat/BossBat_Character_BP.BossBat_Character_BP'",
+            "dinoType": "/Game/LostColony/Dinos/BossBat/BossBat_Character_BP.BossBat_Character_BP'",
             "chanceToProduce": 1,
             "produces": [
                 {
@@ -959,6 +959,249 @@
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 2,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0,
+                            "alternateItems": [],
+                            "comsumesSelectMode": 0,
+                            "consumesItemsChance": 0,
+                            "consumesItems": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "dinoType": "/Game/PrimalEarth/Dinos/Dodo/ZombieDodo_Character_BP.ZombieDodo_Character_BP",
+            "chanceToProduce": 1,
+            "produces": [
+                {
+                    "intervalSeconds": 3600,
+                    "itemSelectMode": 0,
+                    "items": [
+                        {
+                            "bpPath": "/Game/LostColony/CoreBlueprints/Items/ApexDrops/PrimalItemResource_ApexDrop_Zombie.PrimalItemResource_ApexDrop_Zombie",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 0,
+                            "quantityPerDino": 1,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0,
+                            "alternateItems": [],
+                            "comsumesSelectMode": 0,
+                            "consumesItemsChance": 0,
+                            "consumesItems": []
+                        }
+                    ]
+                },
+                {
+                    "intervalSeconds": 7200,
+                    "itemSelectMode": 0,
+                    "items": [
+                        {
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SpoiledMeat.PrimalItemConsumable_SpoiledMeat",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 0,
+                            "quantityPerDino": 4,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0,
+                            "alternateItems": [],
+                            "comsumesSelectMode": 0,
+                            "consumesItemsChance": 0,
+                            "consumesItems": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "dinoType": "/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_ZombieFire.Wyvern_Character_BP_ZombieFire",
+            "chanceToProduce": 1,
+            "produces": [
+                {
+                    "intervalSeconds": 7200,
+                    "itemSelectMode": 0,
+                    "items": [
+                        {
+                            "bpPath": "/Game/LostColony/CoreBlueprints/Items/ApexDrops/PrimalItemResource_ApexDrop_Zombie.PrimalItemResource_ApexDrop_Zombie",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 0,
+                            "quantityPerDino": 1,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0.5,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_FireWyvern.PrimalItemResource_ApexDrop_FireWyvern",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
+                            "comsumesSelectMode": 0,
+                            "consumesItemsChance": 0,
+                            "consumesItems": []
+                        }
+                    ]
+                },
+                {
+                    "intervalSeconds": 900,
+                    "itemSelectMode": 0,
+                    "items": [
+                        {
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SpoiledMeat.PrimalItemConsumable_SpoiledMeat",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 0,
+                            "quantityPerDino": 4,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0,
+                            "alternateItems": [],
+                            "comsumesSelectMode": 0,
+                            "consumesItemsChance": 0,
+                            "consumesItems": []
+                        }
+                    ]
+                },
+                {
+                    "intervalSeconds": 1800,
+                    "itemSelectMode": 0,
+                    "items": [
+                        {
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_WyvernMilk.PrimalItemConsumable_WyvernMilk",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 0,
+                            "quantityPerDino": 1,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0,
+                            "alternateItems": [],
+                            "comsumesSelectMode": 0,
+                            "consumesItemsChance": 0,
+                            "consumesItems": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "dinoType": "/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_ZombieLightning.Wyvern_Character_BP_ZombieLightning",
+            "chanceToProduce": 1,
+            "produces": [
+                {
+                    "intervalSeconds": 7200,
+                    "itemSelectMode": 0,
+                    "items": [
+                        {
+                            "bpPath": "/Game/LostColony/CoreBlueprints/Items/ApexDrops/PrimalItemResource_ApexDrop_Zombie.PrimalItemResource_ApexDrop_Zombie",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 0,
+                            "quantityPerDino": 1,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0.5,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_LightningWyvern.PrimalItemResource_ApexDrop_LightningWyvern",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
+                            "comsumesSelectMode": 0,
+                            "consumesItemsChance": 0,
+                            "consumesItems": []
+                        }
+                    ]
+                },
+                {
+                    "intervalSeconds": 900,
+                    "itemSelectMode": 0,
+                    "items": [
+                        {
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SpoiledMeat.PrimalItemConsumable_SpoiledMeat",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 0,
+                            "quantityPerDino": 4,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0,
+                            "alternateItems": [],
+                            "comsumesSelectMode": 0,
+                            "consumesItemsChance": 0,
+                            "consumesItems": []
+                        }
+                    ]
+                },
+                {
+                    "intervalSeconds": 1800,
+                    "itemSelectMode": 0,
+                    "items": [
+                        {
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_WyvernMilk.PrimalItemConsumable_WyvernMilk",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 0,
+                            "quantityPerDino": 1,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0,
+                            "alternateItems": [],
+                            "comsumesSelectMode": 0,
+                            "consumesItemsChance": 0,
+                            "consumesItems": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "dinoType": "/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_ZombiePoison.Wyvern_Character_BP_ZombiePoison",
+            "chanceToProduce": 1,
+            "produces": [
+                {
+                    "intervalSeconds": 7200,
+                    "itemSelectMode": 0,
+                    "items": [
+                        {
+                            "bpPath": "/Game/LostColony/CoreBlueprints/Items/ApexDrops/PrimalItemResource_ApexDrop_Zombie.PrimalItemResource_ApexDrop_Zombie",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 0,
+                            "quantityPerDino": 1,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0.5,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_PoisonWyvern.PrimalItemResource_ApexDrop_PoisonWyvern",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
+                            "comsumesSelectMode": 0,
+                            "consumesItemsChance": 0,
+                            "consumesItems": []
+                        }
+                    ]
+                },
+                {
+                    "intervalSeconds": 900,
+                    "itemSelectMode": 0,
+                    "items": [
+                        {
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SpoiledMeat.PrimalItemConsumable_SpoiledMeat",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 0,
+                            "quantityPerDino": 4,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0,
+                            "alternateItems": [],
+                            "comsumesSelectMode": 0,
+                            "consumesItemsChance": 0,
+                            "consumesItems": []
+                        }
+                    ]
+                },
+                {
+                    "intervalSeconds": 1800,
+                    "itemSelectMode": 0,
+                    "items": [
+                        {
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_WyvernMilk.PrimalItemConsumable_WyvernMilk",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 0,
+                            "quantityPerDino": 1,
                             "alternateSelectMode": 0,
                             "alternateItemsChance": 0,
                             "alternateItems": [],
