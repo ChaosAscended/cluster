@@ -5504,86 +5504,51 @@
         },
         {
             "dinoType": "/Game/ASA/Dinos/Gigantoraptor/Gigantoraptor_Character_BP.Gigantoraptor_Character_BP",
-            "chanceToProduce": 1,
+            "chanceToProduce": 0.75,
             "produces": [
                 {
-                    "intervalSeconds": 900,
-                    "itemSelectMode": 0,
-                    "items": [
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMeat.PrimalItemConsumable_RawMeat",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 4,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawPrimeMeat.PrimalItemConsumable_RawPrimeMeat",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 2,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Pelt.PrimalItemResource_Pelt",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Crystal.PrimalItemResource_Crystal",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Rockarrot.PrimalItemConsumable_Veggie_Rockarrot",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        }
-                    ]
-                },
-                {
-                    "intervalSeconds": 7200,
-                    "itemSelectMode": 0,
+                    "intervalSeconds": 300,
+                    "itemSelectMode": 1,
                     "items": [
                         {
                             "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_XSmall.PrimalItemConsumable_Kibble_Base_XSmall",
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
+                            "alternateSelectMode": 1,
+                            "alternateItemsChance": 0.01,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Breeding.PrimalItemConsumable_CakeSlice_Breeding",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Harvest.PrimalItemConsumable_CakeSlice_Harvest",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Taming.PrimalItemConsumable_CakeSlice_Taming",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Imprint.PrimalItemConsumable_CakeSlice_Imprint",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Experience.PrimalItemConsumable_CakeSlice_Experience",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
@@ -5593,9 +5558,40 @@
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
+                            "alternateSelectMode": 1,
+                            "alternateItemsChance": 0.01,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Breeding.PrimalItemConsumable_CakeSlice_Breeding",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Harvest.PrimalItemConsumable_CakeSlice_Harvest",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Taming.PrimalItemConsumable_CakeSlice_Taming",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Imprint.PrimalItemConsumable_CakeSlice_Imprint",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Experience.PrimalItemConsumable_CakeSlice_Experience",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
@@ -5605,21 +5601,40 @@
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Medium.PrimalItemConsumable_Kibble_Base_Medium",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
+                            "alternateSelectMode": 1,
+                            "alternateItemsChance": 0.01,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Breeding.PrimalItemConsumable_CakeSlice_Breeding",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Harvest.PrimalItemConsumable_CakeSlice_Harvest",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Taming.PrimalItemConsumable_CakeSlice_Taming",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Imprint.PrimalItemConsumable_CakeSlice_Imprint",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Experience.PrimalItemConsumable_CakeSlice_Experience",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
@@ -5629,9 +5644,40 @@
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
+                            "alternateSelectMode": 1,
+                            "alternateItemsChance": 0.01,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Breeding.PrimalItemConsumable_CakeSlice_Breeding",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Harvest.PrimalItemConsumable_CakeSlice_Harvest",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Taming.PrimalItemConsumable_CakeSlice_Taming",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Imprint.PrimalItemConsumable_CakeSlice_Imprint",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Experience.PrimalItemConsumable_CakeSlice_Experience",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
@@ -5641,375 +5687,83 @@
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
+                            "alternateSelectMode": 1,
+                            "alternateItemsChance": 0.01,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Breeding.PrimalItemConsumable_CakeSlice_Breeding",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Harvest.PrimalItemConsumable_CakeSlice_Harvest",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Taming.PrimalItemConsumable_CakeSlice_Taming",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Imprint.PrimalItemConsumable_CakeSlice_Imprint",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Experience.PrimalItemConsumable_CakeSlice_Experience",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
                         },
                         {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Amarberry.PrimalItemConsumable_Berry_Amarberry",
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Special.PrimalItemConsumable_Kibble_Base_Special",
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Azulberry.PrimalItemConsumable_Berry_Azulberry",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedMeat_Fish.PrimalItemConsumable_CookedMeat_Fish",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedMeat.PrimalItemConsumable_CookedMeat",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedMeat_Jerky.PrimalItemConsumable_CookedMeat_Jerky",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedPrimeMeat_Fish.PrimalItemConsumable_CookedPrimeMeat_Fish",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedPrimeMeat.PrimalItemConsumable_CookedPrimeMeat",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Mejoberry.PrimalItemConsumable_Berry_Mejoberry",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Tintoberry.PrimalItemConsumable_Berry_Tintoberry",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "dinoType": "/Game/ASA/Dinos/Maelizard/Maelizard_Character_BP.Maelizard_Character_BP",
-            "chanceToProduce": 1,
-            "produces": [
-                {
-                    "intervalSeconds": 900,
-                    "itemSelectMode": 0,
-                    "items": [
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMeat.PrimalItemConsumable_RawMeat",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 4,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawPrimeMeat.PrimalItemConsumable_RawPrimeMeat",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 2,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Pelt.PrimalItemResource_Pelt",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Crystal.PrimalItemResource_Crystal",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Rockarrot.PrimalItemConsumable_Veggie_Rockarrot",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        }
-                    ]
-                },
-                {
-                    "intervalSeconds": 7200,
-                    "itemSelectMode": 0,
-                    "items": [
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_XSmall.PrimalItemConsumable_Kibble_Base_XSmall",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_XLarge.PrimalItemConsumable_Kibble_Base_XLarge",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Medium.PrimalItemConsumable_Kibble_Base_Medium",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Medium.PrimalItemConsumable_Kibble_Base_Medium",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Small.PrimalItemConsumable_Kibble_Base_Small",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Large.PrimalItemConsumable_Kibble_Base_Large",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Amarberry.PrimalItemConsumable_Berry_Amarberry",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Azulberry.PrimalItemConsumable_Berry_Azulberry",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedMeat_Fish.PrimalItemConsumable_CookedMeat_Fish",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedMeat.PrimalItemConsumable_CookedMeat",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedMeat_Jerky.PrimalItemConsumable_CookedMeat_Jerky",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedPrimeMeat_Fish.PrimalItemConsumable_CookedPrimeMeat_Fish",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedPrimeMeat.PrimalItemConsumable_CookedPrimeMeat",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Mejoberry.PrimalItemConsumable_Berry_Mejoberry",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Tintoberry.PrimalItemConsumable_Berry_Tintoberry",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
+                            "alternateSelectMode": 1,
+                            "alternateItemsChance": 0.01,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Breeding.PrimalItemConsumable_CakeSlice_Breeding",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Harvest.PrimalItemConsumable_CakeSlice_Harvest",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Taming.PrimalItemConsumable_CakeSlice_Taming",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Imprint.PrimalItemConsumable_CakeSlice_Imprint",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Experience.PrimalItemConsumable_CakeSlice_Experience",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
@@ -6020,98 +5774,51 @@
         },
         {
             "dinoType": "/Game/ASA/Dinos/Gigantoraptor/Gigantoraptor_Character_BP_Aberrant.Gigantoraptor_Character_BP_Aberrant",
-            "chanceToProduce": 1,
+            "chanceToProduce": 0.75,
             "produces": [
                 {
-                    "intervalSeconds": 900,
-                    "itemSelectMode": 0,
-                    "items": [
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMeat.PrimalItemConsumable_RawMeat",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 4,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawPrimeMeat.PrimalItemConsumable_RawPrimeMeat",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 2,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Mushroom_Auric.PrimalItemConsumable_Mushroom_Auric",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Obsidian.PrimalItemResource_Obsidian",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_Gas.PrimalItemResource_Gas",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        }
-                    ]
-                },
-                {
-                    "intervalSeconds": 7200,
-                    "itemSelectMode": 0,
+                    "intervalSeconds": 300,
+                    "itemSelectMode": 1,
                     "items": [
                         {
                             "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_XSmall.PrimalItemConsumable_Kibble_Base_XSmall",
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
+                            "alternateSelectMode": 1,
+                            "alternateItemsChance": 0.01,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Breeding.PrimalItemConsumable_CakeSlice_Breeding",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Harvest.PrimalItemConsumable_CakeSlice_Harvest",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Taming.PrimalItemConsumable_CakeSlice_Taming",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Imprint.PrimalItemConsumable_CakeSlice_Imprint",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Experience.PrimalItemConsumable_CakeSlice_Experience",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
@@ -6121,9 +5828,40 @@
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
+                            "alternateSelectMode": 1,
+                            "alternateItemsChance": 0.01,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Breeding.PrimalItemConsumable_CakeSlice_Breeding",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Harvest.PrimalItemConsumable_CakeSlice_Harvest",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Taming.PrimalItemConsumable_CakeSlice_Taming",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Imprint.PrimalItemConsumable_CakeSlice_Imprint",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Experience.PrimalItemConsumable_CakeSlice_Experience",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
@@ -6133,21 +5871,40 @@
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Medium.PrimalItemConsumable_Kibble_Base_Medium",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
+                            "alternateSelectMode": 1,
+                            "alternateItemsChance": 0.01,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Breeding.PrimalItemConsumable_CakeSlice_Breeding",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Harvest.PrimalItemConsumable_CakeSlice_Harvest",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Taming.PrimalItemConsumable_CakeSlice_Taming",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Imprint.PrimalItemConsumable_CakeSlice_Imprint",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Experience.PrimalItemConsumable_CakeSlice_Experience",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
@@ -6157,9 +5914,40 @@
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
+                            "alternateSelectMode": 1,
+                            "alternateItemsChance": 0.01,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Breeding.PrimalItemConsumable_CakeSlice_Breeding",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Harvest.PrimalItemConsumable_CakeSlice_Harvest",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Taming.PrimalItemConsumable_CakeSlice_Taming",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Imprint.PrimalItemConsumable_CakeSlice_Imprint",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Experience.PrimalItemConsumable_CakeSlice_Experience",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
@@ -6169,117 +5957,353 @@
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
+                            "alternateSelectMode": 1,
+                            "alternateItemsChance": 0.01,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Breeding.PrimalItemConsumable_CakeSlice_Breeding",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Harvest.PrimalItemConsumable_CakeSlice_Harvest",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Taming.PrimalItemConsumable_CakeSlice_Taming",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Imprint.PrimalItemConsumable_CakeSlice_Imprint",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Experience.PrimalItemConsumable_CakeSlice_Experience",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
                         },
                         {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Amarberry.PrimalItemConsumable_Berry_Amarberry",
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Special.PrimalItemConsumable_Kibble_Base_Special",
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
+                            "alternateSelectMode": 1,
+                            "alternateItemsChance": 0.01,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Breeding.PrimalItemConsumable_CakeSlice_Breeding",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Harvest.PrimalItemConsumable_CakeSlice_Harvest",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Taming.PrimalItemConsumable_CakeSlice_Taming",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Imprint.PrimalItemConsumable_CakeSlice_Imprint",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Experience.PrimalItemConsumable_CakeSlice_Experience",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
+                            "comsumesSelectMode": 0,
+                            "consumesItemsChance": 0,
+                            "consumesItems": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "dinoType": "/Game/ASA/Dinos/Maelizard/Maelizard_Character_BP.Maelizard_Character_BP",
+            "chanceToProduce": 0.75,
+            "produces": [
+                {
+                    "intervalSeconds": 300,
+                    "itemSelectMode": 1,
+                    "items": [
+                        {
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_XSmall.PrimalItemConsumable_Kibble_Base_XSmall",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 0,
+                            "quantityPerDino": 1,
+                            "alternateSelectMode": 1,
+                            "alternateItemsChance": 0.01,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Breeding.PrimalItemConsumable_CakeSlice_Breeding",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Harvest.PrimalItemConsumable_CakeSlice_Harvest",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Taming.PrimalItemConsumable_CakeSlice_Taming",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Imprint.PrimalItemConsumable_CakeSlice_Imprint",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Experience.PrimalItemConsumable_CakeSlice_Experience",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
                         },
                         {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Azulberry.PrimalItemConsumable_Berry_Azulberry",
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_XLarge.PrimalItemConsumable_Kibble_Base_XLarge",
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
+                            "alternateSelectMode": 1,
+                            "alternateItemsChance": 0.01,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Breeding.PrimalItemConsumable_CakeSlice_Breeding",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Harvest.PrimalItemConsumable_CakeSlice_Harvest",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Taming.PrimalItemConsumable_CakeSlice_Taming",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Imprint.PrimalItemConsumable_CakeSlice_Imprint",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Experience.PrimalItemConsumable_CakeSlice_Experience",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
                         },
                         {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedMeat_Fish.PrimalItemConsumable_CookedMeat_Fish",
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Medium.PrimalItemConsumable_Kibble_Base_Medium",
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
+                            "alternateSelectMode": 1,
+                            "alternateItemsChance": 0.01,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Breeding.PrimalItemConsumable_CakeSlice_Breeding",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Harvest.PrimalItemConsumable_CakeSlice_Harvest",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Taming.PrimalItemConsumable_CakeSlice_Taming",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Imprint.PrimalItemConsumable_CakeSlice_Imprint",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Experience.PrimalItemConsumable_CakeSlice_Experience",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
                         },
                         {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedMeat.PrimalItemConsumable_CookedMeat",
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Small.PrimalItemConsumable_Kibble_Base_Small",
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
+                            "alternateSelectMode": 1,
+                            "alternateItemsChance": 0.01,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Breeding.PrimalItemConsumable_CakeSlice_Breeding",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Harvest.PrimalItemConsumable_CakeSlice_Harvest",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Taming.PrimalItemConsumable_CakeSlice_Taming",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Imprint.PrimalItemConsumable_CakeSlice_Imprint",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Experience.PrimalItemConsumable_CakeSlice_Experience",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
                         },
                         {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedMeat_Jerky.PrimalItemConsumable_CookedMeat_Jerky",
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Large.PrimalItemConsumable_Kibble_Base_Large",
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
+                            "alternateSelectMode": 1,
+                            "alternateItemsChance": 0.01,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Breeding.PrimalItemConsumable_CakeSlice_Breeding",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Harvest.PrimalItemConsumable_CakeSlice_Harvest",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Taming.PrimalItemConsumable_CakeSlice_Taming",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Imprint.PrimalItemConsumable_CakeSlice_Imprint",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Experience.PrimalItemConsumable_CakeSlice_Experience",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
                         },
                         {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedPrimeMeat_Fish.PrimalItemConsumable_CookedPrimeMeat_Fish",
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Special.PrimalItemConsumable_Kibble_Base_Special",
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedPrimeMeat.PrimalItemConsumable_CookedPrimeMeat",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Mejoberry.PrimalItemConsumable_Berry_Mejoberry",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Tintoberry.PrimalItemConsumable_Berry_Tintoberry",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
+                            "alternateSelectMode": 1,
+                            "alternateItemsChance": 0.01,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Breeding.PrimalItemConsumable_CakeSlice_Breeding",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Harvest.PrimalItemConsumable_CakeSlice_Harvest",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Taming.PrimalItemConsumable_CakeSlice_Taming",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Imprint.PrimalItemConsumable_CakeSlice_Imprint",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/CakeSlices/PrimalItemConsumable_CakeSlice_Experience.PrimalItemConsumable_CakeSlice_Experience",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
