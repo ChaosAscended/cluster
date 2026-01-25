@@ -3,56 +3,14 @@
     "production": [
         {
             "dinoType": "/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP",
-            "chanceToProduce": 1,
+            "chanceToProduce": 0.75,
             "produces": [
-                {
-                    "intervalSeconds": 300,
-                    "itemSelectMode": 0,
-                    "items": [
-                        {
-                            "bpPath": "/Game/PrimalEarth/Dinos/Achatina/PrimalItemResource_SnailPaste.PrimalItemResource_SnailPaste",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 3,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 3,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        }
-                    ]
-                },
                 {
                     "intervalSeconds": 900,
                     "itemSelectMode": 0,
                     "items": [
                         {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Fibers.PrimalItemResource_Fibers",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 4,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wood.PrimalItemResource_Wood",
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Chitin.PrimalItemResource_Chitin",
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 4,
@@ -80,9 +38,28 @@
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
+                            "alternateSelectMode": 1,
+                            "alternateItemsChance": 0.75,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Rockarrot.PrimalItemConsumable_Veggie_Rockarrot",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Savoroot.PrimalItemConsumable_Veggie_Savoroot",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                },
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Longrass.PrimalItemConsumable_Veggie_Longrass",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
@@ -92,6 +69,37 @@
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0.5,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
+                            "comsumesSelectMode": 0,
+                            "consumesItemsChance": 0,
+                            "consumesItems": []
+                        },
+                        {
+                            "bpPath": "/Game/PrimalEarth/Dinos/Achatina/PrimalItemResource_SnailPaste.PrimalItemResource_SnailPaste",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 0,
+                            "quantityPerDino": 3,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0,
+                            "alternateItems": [],
+                            "comsumesSelectMode": 0,
+                            "consumesItemsChance": 0,
+                            "consumesItems": []
+                        },
+                        {
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 0,
+                            "quantityPerDino": 3,
                             "alternateSelectMode": 0,
                             "alternateItemsChance": 0,
                             "alternateItems": [],
@@ -3198,44 +3206,14 @@
         },
         {
             "dinoType": "/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP_Aberrant.Achatina_Character_BP_Aberrant",
-            "chanceToProduce": 1,
+            "chanceToProduce": 0.75,
             "produces": [
-                {
-                    "intervalSeconds": 300,
-                    "itemSelectMode": 0,
-                    "items": [
-                        {
-                            "bpPath": "/Game/PrimalEarth/Dinos/Achatina/PrimalItemResource_SnailPaste.PrimalItemResource_SnailPaste",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 3,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 3,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        }
-                    ]
-                },
                 {
                     "intervalSeconds": 900,
                     "itemSelectMode": 0,
                     "items": [
                         {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Thatch.PrimalItemResource_Thatch",
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Chitin.PrimalItemResource_Chitin",
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 4,
@@ -3287,6 +3265,30 @@
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0,
+                            "alternateItems": [],
+                            "comsumesSelectMode": 0,
+                            "consumesItemsChance": 0,
+                            "consumesItems": []
+                        },
+                        {
+                            "bpPath": "/Game/PrimalEarth/Dinos/Achatina/PrimalItemResource_SnailPaste.PrimalItemResource_SnailPaste",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 0,
+                            "quantityPerDino": 3,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0,
+                            "alternateItems": [],
+                            "comsumesSelectMode": 0,
+                            "consumesItemsChance": 0,
+                            "consumesItems": []
+                        },
+                        {
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 0,
+                            "quantityPerDino": 3,
                             "alternateSelectMode": 0,
                             "alternateItemsChance": 0,
                             "alternateItems": [],
@@ -4921,7 +4923,7 @@
         },
         {
             "dinoType": "/Game/PrimalEarth/Dinos/Allosaurus/Allo_Character_BP.Allo_Character_BP",
-            "chanceToProduce": 1,
+            "chanceToProduce": 0.75,
             "produces": [
                 {
                     "intervalSeconds": 900,
@@ -4932,9 +4934,16 @@
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 4,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
+                            "alternateSelectMode": 1,
+                            "alternateItemsChance": 0.01,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Allo.PrimalItemResource_ApexDrop_Allo",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
@@ -4944,9 +4953,16 @@
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 2,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
+                            "alternateSelectMode": 1,
+                            "alternateItemsChance": 0.01,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Allo.PrimalItemResource_ApexDrop_Allo",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
@@ -4956,51 +4972,35 @@
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
+                            "alternateSelectMode": 1,
+                            "alternateItemsChance": 0.01,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Allo.PrimalItemResource_ApexDrop_Allo",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
                         },
                         {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Crystal.PrimalItemResource_Crystal",
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Keratin.PrimalItemResource_Keratin",
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Rockarrot.PrimalItemConsumable_Veggie_Rockarrot",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        }
-                    ]
-                },
-                {
-                    "intervalSeconds": 7200,
-                    "itemSelectMode": 0,
-                    "items": [
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Allo.PrimalItemResource_ApexDrop_Allo",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
+                            "alternateSelectMode": 1,
+                            "alternateItemsChance": 0.01,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Allo.PrimalItemResource_ApexDrop_Allo",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
@@ -5749,7 +5749,7 @@
         },
         {
             "dinoType": "/Game/LostColony/Dinos/SnowMonster/SnowMonster_Character_BP.SnowMonster_Character_BP",
-            "chanceToProduce": 1,
+            "chanceToProduce": 0.75,
             "produces": [
                 {
                     "intervalSeconds": 900,
@@ -5761,8 +5761,15 @@
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 4,
                             "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
+                            "alternateItemsChance": 0.01,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/LostColony/CoreBlueprints/Items/ApexDrops/PrimalItemResource_ApexDrop_SnowMonster.PrimalItemResource_ApexDrop_SnowMonster",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
@@ -5772,9 +5779,16 @@
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 2,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
+                            "alternateSelectMode": 1,
+                            "alternateItemsChance": 0.01,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/LostColony/CoreBlueprints/Items/ApexDrops/PrimalItemResource_ApexDrop_SnowMonster.PrimalItemResource_ApexDrop_SnowMonster",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
@@ -5784,33 +5798,35 @@
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
+                            "alternateSelectMode": 1,
+                            "alternateItemsChance": 0.01,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/LostColony/CoreBlueprints/Items/ApexDrops/PrimalItemResource_ApexDrop_SnowMonster.PrimalItemResource_ApexDrop_SnowMonster",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
                         },
                         {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Crystal.PrimalItemResource_Crystal",
+                            "bpPath": "/Game/LostColony/CoreBlueprints/Items/PrimalItemResource_LostColony_RedElementShard.PrimalItemResource_LostColony_RedElementShard",
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        },
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Rockarrot.PrimalItemConsumable_Veggie_Rockarrot",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0,
-                            "alternateItems": [],
+                            "alternateSelectMode": 1,
+                            "alternateItemsChance": 0.01,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/LostColony/CoreBlueprints/Items/ApexDrops/PrimalItemResource_ApexDrop_SnowMonster.PrimalItemResource_ApexDrop_SnowMonster",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
