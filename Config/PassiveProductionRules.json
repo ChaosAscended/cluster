@@ -18511,7 +18511,7 @@
                     ]
                 },
                 {
-                    "intervalSeconds": 30,
+                    "intervalSeconds": 900,
                     "itemSelectMode": 0,
                     "items": [
                         {
