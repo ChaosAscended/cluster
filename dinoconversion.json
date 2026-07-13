@@ -24,5 +24,9 @@
       "fromClass": "/AAArchelon/Dinos/ArchelonAA_Character_BP.ArchelonAA_Character_BP",
       "toClass": "/Game/ASA/Dinos/Archelon/Dinos/Archelon_Character_BP_ASA.Archelon_Character_BP_ASA"
     }
+    {
+      "fromClass": "/Game/Genesis/Dinos/MissionVariants/Race/BogSpider_Character_BP_Race.BogSpider_Character_BP_Race",
+      "toClass": "/Game/PrimalEarth/Dinos/Coelacanth/Coel_Character_BP_Aberrant.Coel_Character_BP_Aberrant"
+    }
   ]
 }
